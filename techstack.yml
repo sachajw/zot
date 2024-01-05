@@ -1,7 +1,8 @@
 repo_name: sachajw/zot
 report_id: 5d6198e426627200344144035759622b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T10:45:02+00:00'
+timestamp: '2024-01-05T08:39:13+00:00'
 requested_by: laurentiuNiculae
 provider: github
 branch: main
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/sachajw/zot
   detection_source: Repo Metadata
 - name: Protobuf
   description: Google's data interchange format
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Andrei Aaron
   last_updated_on: 2023-03-06 19:05:19.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Remote Procedure Call (RPC)
   image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Ramkumar Chinchani
   last_updated_on: 2019-06-20 23:36:40.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Andrei Aaron
   last_updated_on: 2023-03-06 19:05:19.000000000 Z
@@ -60,6 +65,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/pkg/extensions/search/schema.graphql
   detection_source: pkg/extensions/search/schema.graphql
   last_updated_by: Shivam Mishra
   last_updated_on: 2020-06-26 19:09:10.000000000 Z
@@ -71,6 +77,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Ramkumar Chinchani
   last_updated_on: 2022-08-13 03:53:23.000000000 Z
@@ -82,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/codecov.yml
   detection_source: codecov.yml
   last_updated_by: Shivam Mishra
   last_updated_on: 2020-08-19 07:10:49.000000000 Z
@@ -94,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/sachajw/zot
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -103,6 +112,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/zot
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -112,7 +122,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/web-scan.yml"
+  detection_source_url: https://github.com/sachajw/zot/blob/main/.github/workflows/benchmark.yaml
+  detection_source: ".github/workflows/benchmark.yaml"
   last_updated_by: Andrei Aaron
   last_updated_on: 2023-03-06 19:05:19.000000000 Z
 - name: HAProxy
@@ -123,6 +134,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Load Balancer / Reverse Proxy
   image_url: https://img.stackshare.io/service/1179/preview.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/examples/cluster/haproxy.cfg
   detection_source: examples/cluster/haproxy.cfg
   last_updated_by: Petu Eusebiu
   last_updated_on: 2022-03-02 18:10:06.000000000 Z
@@ -136,6 +148,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Ramkumar Chinchani
   last_updated_on: 2023-01-25 18:58:39.000000000 Z
@@ -148,6 +161,7 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Andrei Aaron
   last_updated_on: 2023-03-06 19:05:19.000000000 Z
@@ -161,6 +175,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Andrei Aaron
   last_updated_on: 2023-01-18 16:24:44.000000000 Z
@@ -174,6 +189,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Go Testing
   image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Ramkumar Chinchani
   last_updated_on: 2023-02-28 15:38:49.000000000 Z
@@ -187,6 +203,7 @@ tools:
   category: Application Utilities
   sub_category: API Tools
   image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Ramkumar Chinchani
   last_updated_on: 2019-06-20 23:36:40.000000000 Z
@@ -199,6 +216,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sachajw/zot
   detection_source: Repo Metadata
 - name: go-openapi/errors
   description: Openapi toolkit common errors
@@ -209,6 +227,7 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/sachajw/zot/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Nicol
   last_updated_on: 2023-03-15 15:10:47.000000000 Z
